@@ -101,6 +101,7 @@ export const ChatMessages = ({
                         {group.items.map((message: MessageWithMemberWithProfile) => (
                             <ChatItem 
                             id={message.id}
+                            key={null}
                             content={message.content}
                             member={message.member}
                             timestamp={format(new Date(message.createdAt), DATE_FORMAT)}

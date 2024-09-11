@@ -1,7 +1,7 @@
 const PersonalMessages = () => {
     return ( 
         <div>
-            Welcome to dm's!
+            Welcome to dms!
         </div>
      );
 }
